@@ -1,0 +1,232 @@
+body{
+    box-sizing: border-box;
+    width: 100%;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .top-menu{
+        height: 0.4vh;
+        flex: 1;
+        text-align: right;
+        margin: 5px;
+    }
+    .top-menu ul li{
+        list-style: none;
+        display: inline-block;
+        position: relative;
+    }
+    .top-menu ul li a{
+        text-decoration: none;
+        font-size: 12px;
+        color: black;
+        font-weight: lighter;
+        padding: 1em;
+    }
+    .top-menu ul li a:hover{
+        color: red;
+        transition: 0.5s;
+    }
+    .icon{
+        border: 1px solid red;
+        background: red;
+        border-radius: 3px;
+        width: 100%;
+    }
+    .fa{
+        color: black;
+    }
+    .sub-menu{
+        background: black;
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        padding: 0 5%;
+        position: relative;
+    }
+    .sub-menu ul{
+        flex-direction: row;
+        display: flex;
+        justify-self: center;
+    }
+    .sub-menu ul li{
+        list-style: none;
+        padding: 10px 30px;
+        position: relative;
+        
+    }
+    .img{
+        width: 120px;
+    }
+    .search{
+        margin-top: 20px;
+    }
+    input{
+        width: 500px;
+    }
+    .search ::placeholder{
+        font-size: 10px;
+        color: black;
+    }
+    .sub-sub-menu{
+        height: 5vh;
+        flex: 1;
+        margin: 5px;
+        border-bottom: 1px solid black;
+    }
+    .sub-sub-menu ul li{
+        list-style: none;
+        display: inline-block;
+        position: relative;
+    }
+    .sub-sub-menu ul li a{
+        text-decoration: none;
+        font-size: 10px;
+        color: black;
+        font-weight: bold;
+        padding: 3em;
+    }
+    .sub-sub-menu ul li a:hover{
+        color: red;
+        transition: 0.5s;
+    }
+    .sliding-image{
+        width: 30%;
+        justify-content: center;
+        margin-left: 300px;
+    }
+    .d-block{
+        height: 50vh;
+    }
+    .logo{
+        margin: 10px;
+    }
+    .labels{
+        width: 30px;
+    }
+    .labels1{
+        width: 30px;
+    }
+    .labels2{
+        width: 30px;
+    }
+    .labels3{
+        width: 30px;
+    }
+    .labels4{
+        width: 30px;
+    }
+    .labels5{
+        width: 30px;
+    }
+    .labels6{
+        width: 30px;
+    }
+    .labels7{
+        width: 30px;
+    }
+    .labels8{
+        width: 30px;
+    }
+    .labels9{
+        width: 30px;
+    }
+    .market{
+        width: 95%;
+        height: 40vh;
+    
+    }
+    h2{
+        color: black;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .shop{
+        color: white;
+        background-color:red;
+        border-radius:20px ;
+        font-weight: lighter;
+        font-size: 10px;
+        border: 1px solid red;
+        width: 40%;
+        height: 25px;
+    }
+    .rights{
+        display: flex;
+        width : 97%;
+        height: 30vh;
+        margin: 10px;
+        border: 1px solid white;
+        
+    }
+    .license{
+        width: 100%;
+        height: 100%;
+        place-items: center; 
+    }
+    h4{
+        font-size: 14px;
+        font-weight: bolder;
+        color: black;
+        margin-left: 20px;
+    }
+    p{
+        width: 95%;
+        font-size: 12px;
+    }
+    .sub-footer{
+        margin-top: 3em;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 1fr;
+        width: 100%;
+        background: #F0F8FF;
+    
+    }
+    .sub-footer ul li{
+        list-style: none;
+    }
+    .sub-footer ul li a{
+        color: black;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .sub-footer ul li a:hover{
+        color: red;
+        transition: 0.5s;
+        text-decoration: underline;
+    }
+    .top-link{
+        color: black;
+        font-weight: bolder;
+        font-size: 12px;
+    }
+    .customer{
+        margin-top:10px;
+    }
+    .worry{
+        margin-top:10px;
+    }
+    .information{
+        margin-top: 10px;
+    }
+    .mambo_mingi{
+        margin-left: 20px;
+    }
+    .promortion{
+        margin-top: 10px;
+    }
+    .sales{
+        border: 1px solid red;
+        background: red;
+        color: white;
+        font-size: 12px;
+        width: 13em;
+    }
+    .on{
+        font-size: 10px;
+        font-weight: lighter;
+    }

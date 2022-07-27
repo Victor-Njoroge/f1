@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-menu{
+    height: 1vh;
+    flex: 1;
+    text-align: right;
+    margin: 5px;
+}
+.top-menu ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.top-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    padding: 2em;
+}
+.top-menu ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.sub-menu{
+    background: red;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    margin-top:30px;
+    position: relative;
+}
+.sub-menu ul{
+    list-style: none;
+    display: flex;
+}
+.sub-menu ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+.sub-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+.sub-menu ul li a:hover{
+    color: black;
+    transition: 0.5s;
+}
+.img1{
+    width: 150px;
+}
+.text{
+    font-size: 35px;
+}
+.icon{
+    margin-left: -30px;
+}
+.container{
+    background-image: url(images/XPB_1132537_HiRes-1024x683.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    height: 90vh;
+}
+.short{
+    margin-left: 90px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.button{
+    margin-left: 90px;
+    border: 1px solid white;
+    font-weight: lighter;
+    font-size: 12px;
+    color: black;
+    background: white;
+    border-radius:5px;
+    width: 150px;
+    height: 3em;
+}
+.button:hover{
+    background: red;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid red;
+}
+h3{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin: 17px;
+}
+.container2{
+    margin: 10px;
+}
+.small{
+    border-top: 10px solid red;
+    height: 95vh;
+    border-right: 10px solid red;
+    border-bottom: 10px solid red;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h4{
+    font-size: 15px;
+}
+.date{
+    font-size: 10px;
+}
+.button2{
+    font-size: 8px;
+    width: 50px;
+    border: 1px solid grey;
+    border-radius: 7px;
+}
+.flag{
+    width: 40px;
+    border-radius: 7px;
+}
+.text{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+h6{
+    font-size: 9px;
+    color: grey;
+    margin-left: 50px;
+    margin-top: -18px;
+}
+.button3{
+    border: 1px solid grey;
+    color: grey;
+    font-size: 12px;
+    width: 80px;
+    border-radius: 5px;
+}
+.button3:hover{
+    background: red;
+    transition: 0.5s;
+}
+.grand{
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom-right-radius:5px ;
+}
+.prix{
+    width: 166px;
+    height: 20vh;
+}
+.room{
+    font-size: 10px;
+    margin-top:10px;
+    color: grey;
+}
+.info{
+    border-bottom: 10px solid black;
+    
+}
+.sub-footer{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    width: 100%;
+    background:wheat;
+
+}
+.discuss{
+    font-size: 12px;
+    color: black;
+    margin-left: 20px;
+}
+.container4{
+    background: wheat;
+    margin-top: 20px;
+}
+.customer{
+    margin-top:-22px;
+}
+.box{
+    width: 300px;
+    height:2em;
+    font-size: 11px;
+    margin-left: 10px;
+}
+.worry{
+    margin-top:-22px;
+}
+.tick{
+    margin-left: 10px;
+    color: black;
+    border: 1px solid black;
+}
+.check{
+    font-size:10px;
+    color: black;
+    margin-left: 24px;
+    margin-top: -18px;
+}
+.information{
+    margin-top: -22px;
+}
+.comments{
+    margin-left: 20px;
+    color: black;
+    font-size: 10px;
+    width: 250px;
+    height: 6em;
+}
+.promortion{
+    margin-top: 10px;
+}
+.submit{
+    background: red;
+    border: 1px solid red;
+    color: white;
+    font-size: 10px;
+    width: 60px;
+    height: 2em;
+    border-radius: 3px;
+    margin-left: 210px;
+}
+.sales{
+}

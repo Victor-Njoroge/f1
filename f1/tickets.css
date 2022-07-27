@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top-menu{
+    height: 1vh;
+    flex: 1;
+    text-align: right;
+    margin: 5px;
+}
+.top-menu ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.top-menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    padding: 2em;
+}
+.top-menu ul li a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.sub-menu{
+    background: red;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    margin-top:30px;
+    position: relative;
+}
+.sub-menu ul{
+    list-style: none;
+    display: flex;
+}
+.sub-menu ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+.sub-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+.sub-menu ul li a:hover{
+    color: black;
+    transition: 0.5s;
+}
+.img1{
+    width: 150px;
+}
+.text{
+    font-size: 35px;
+}
+.icon{
+    margin-left: -30px;
+}
+.race{
+    padding-top: 1em;
+   display: grid;
+   place-items: center;
+   min-height: auto;
+}
+.fia{
+    border-bottom: 10px solid red;
+}
+h2{
+    font-size: 17px;
+    font-weight: bolder;
+    color: black;
+    margin: 10px;
+}
+.text2{
+    color: black;
+    font-size: 13px;
+    font-weight: bolder;
+    float: right;
+    margin-top: -30px;
+}
+.big{
+    margin: 5px;
+}
+.img2{
+    width: 100%;
+}
+.flag{
+    width: 40px;
+    border-radius:9px;
+    margin: 5px;
+}
+.text3{
+    font-size: 13px;
+    color: black;
+    font-weight: bolder;
+}
+.text4{
+    font-size: 10px;
+    color: gray;
+    margin-left: 44px;
+    margin-top: -20px;
+}
+.small{
+    margin: 5px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-bottom-right-radius: 5px;
+}
+.img3{
+    width: 100%;
+    height: 22vh;
+}
+.text5{
+    font-size: 10px;
+    font-weight: bolder;
+}
+.small2{
+    margin: 5px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-bottom-right-radius: 5px
+}
+.img4{
+    width: 206px;
+}
+.small3{
+    margin-top: -160px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-bottom-right-radius: 5px;
+
+}
+.img5{
+    width: 216px;
+    height: 15vh;
+}
+.small4{
+    margin-top: -160px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-bottom-right-radius: 5px;
+}
+.img6{
+    width: 216px;
+    height: 15vh;
+}
+.sub-footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    width: 100%;
+    background:black;
+
+}
+.sub-footer ul li{
+    list-style: none;
+}
+.sub-footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
+.sub-footer ul li a:hover{
+    color: red;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+.top-link{
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
+}
+.customer{
+    margin-top:10px;
+}
+.worry{
+    margin-top:10px;
+}
+.information{
+    margin-top: 10px;
+}
+.promortion{
+    margin-top: 10px;
+}
+.sales{
+    border: 1px solid red;
+    background: red;
+    color: white;
+    font-size: 12px;
+    width: 13em;
+}
+.on{
+    font-size: 10px;
+    font-weight: lighter;
+}
+.con{
+    color: white;
+}
